@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Wild Mushrooms</title>
+    <!--Importing fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap" rel="stylesheet">
+    
+    <style>
+        /*Making the columns*/ 
+        body {
+            margin: 0;
+        }
+        h1, h2 {
+            font-family: 'Antic Slab', serif;
+            font-weight: 700;
+            text-align: center;
+        }
+        p {
+            font-family: 'Antic Slab', serif;
+        }
+        .header {
+            height: 100px;
+            text-align: center;
+
+        }
+        .container div {
+            padding: 1%;
+            box-sizing: border-box;
+            min-height: 500px;
+        }
+        .left-col, .right-col {
+            background-color: #f4f4f4;
+            width: 33%;
+            float: left;
+            font-family: 'Antic Slab', serif;
+        }
+        .center-col {
+/*          background-color: pink; */
+            width: 33%;
+            float: left;
+            font-family: 'Antic Slab', serif;
+        }
+
+        /*Resizing images*/
+        img.resize 
+        {
+            max-width:70%;
+            max-height:70%;
+        }
+
+        img.resize2 
+        {
+            max-width:18%;
+            max-height:18%;
+        }
+
+    </style>
+</head>
+<body>
+    <a href="index.html" > <img class="resize2" src = "HomeButton.png" alt = "HomeButton" > </a> </br>
+
+<div class="header">
+    <h1>Wild Mushrooms</h1>
+</div>
+
+<div class = "caption">
+    <center> <p style = "font-size:20px;"> This is a quick guide to help you identify edible mushrooms! </p> </center>
+</div>
+    
+
+<div class="container">
+    <div class="left-col" style = "font-family: 'Antic Slab', serif;">
+        <h2>Posionous Mushrooms</h2>
+        <p style = "font-size:30px;"> How to tell if a mushroom is NOT safe to eat: </p>
+        <p style = "font-size:20px;"> NOT SAFE:
+        <ul>
+            <li> Mushrooms with a red cap or stem</li>
+            <li> Mushrooms with a bad odor</li>
+            <li> mushrooms with white gills, a skirt or ring on the stem, and a bulbous or sack-like base (called a volva).</li>
+        </ul>
+        </p>
+    </div>
+
+    <div class="center-col">
+        <h2>Oyster Mushroom (edible)</h2>
+        <p>
+            <center><br><img class = "resize" src = "OysterMushroom.png" alt  = "OysterMushroom"></br> 
+            Oyster mushrooms typically grow on dead or dying trees. They are occansionally found on fallen branches and dead stumps. These grow all over North America and have white to brownish-gray caps that are typically 2–8 inches wide. 
+        </p>
+    </div>
+
+    <div class="right-col">
+        <h2>Lion's Mane (edible)</h2>
+        <p>
+            <center><br><img class = "resize" src = "LionsMane.png" alt  = "LionsMane"></br>
+            These icicle-looking mushrooms have a mild seafood flavor. They are usually white, but can have hints pink. You can typically find them growing on trees. </p></center>
+    </div>
+
+</div>
+</body>
+</html>
